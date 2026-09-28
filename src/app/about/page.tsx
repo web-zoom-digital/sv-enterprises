@@ -450,79 +450,88 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="bg-white border border-[#E5E7EB] rounded-3xl p-6 sm:p-8 shadow-xs space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-[#171A1D]">
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0">
-                  <MapPin className="w-6 h-6" />
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6 cursor-pointer">
+            {/* Card 1: Store Address */}
+            <div className="bg-white border border-[#E5E7EB] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col justify-between space-y-4 hover:border-[#1683C7]/40 hover:-translate-y-1 hover:shadow-md transition-all duration-300 group">
+              <div className="space-y-3">
+                <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
+                  <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
                 </div>
                 <div>
-                  <strong className="block text-[#171A1D] font-bold text-base">Store Address</strong>
-                  <p className="text-[#6B7280] mt-1 leading-relaxed">
+                  <h3 className="text-sm sm:text-base font-bold text-[#171A1D]">Store Address</h3>
+                  <p className="text-xs sm:text-sm text-[#6B7280] mt-1 leading-relaxed">
                     S V ENTERPRISES<br />
                     129/60, W Coovam Road, Chintadripet,<br />
-                    Chennai, Tamil Nadu 600002, India
+                    Chennai, Tamil Nadu 600002
                   </p>
                 </div>
               </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div>
-                  <strong className="block text-[#171A1D] font-bold text-base">Phone Hotline</strong>
-                  <a
-                    href={`tel:${SITE_CONFIG.phoneRaw}`}
-                    className="text-[#1683C7] font-bold text-lg hover:underline block mt-0.5"
-                  >
-                    {SITE_CONFIG.phone}
-                  </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0">
-                  <Clock className="w-6 h-6" />
-                </div>
-                <div>
-                  <strong className="block text-[#171A1D] font-bold text-base">Operating Hours</strong>
-                  <p className="text-[#6B7280] mt-1">
-                    Monday – Saturday: 09:30 AM – 08:30 PM<br />
-                    Sunday: On Call / Appointment
-                  </p>
-                </div>
+              <div className="pt-3 ">
+                <a
+                  href={SITE_CONFIG.googleMapUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-1.5 bg-[#171A1D] hover:bg-black text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-4 rounded-xl shadow-xs transition-colors"
+                >
+                  <Navigation className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7]" />
+                  <span>Get Directions</span>
+                </a>
               </div>
             </div>
 
-            <div className="pt-4 border-t border-[#E5E7EB] flex flex-wrap items-center justify-center gap-4">
-              <a
-                href={`tel:${SITE_CONFIG.phoneRaw}`}
-                className="inline-flex items-center gap-2 bg-[#1683C7] hover:bg-[#126fa9] text-white font-bold py-3 px-6 rounded-xl shadow-xs transition-colors text-sm"
-              >
-                <Phone className="w-4 h-4" />
-                <span>Call Now</span>
-              </a>
+            {/* Card 2: Phone Hotline */}
+            <div className="bg-white border border-[#E5E7EB] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col justify-between space-y-4 hover:border-[#1683C7]/40 hover:-translate-y-1 hover:shadow-md transition-all duration-300 group">
+              <div className="space-y-3">
+                <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
+                  <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
+                </div>
+                <div>
+                  <h3 className="text-sm sm:text-base font-bold text-[#171A1D]">Phone Number</h3>
+                  <a
+                    href={`tel:${SITE_CONFIG.phoneRaw}`}
+                    className="text-xs sm:text-sm text-[#6B7280] hover:text-[#1683C7] transition-colors block mt-1 font-semibold"
+                  >
+                    {SITE_CONFIG.phone}
+                  </a>
+                  <p className="text-[11px] sm:text-xs text-[#6B7280] mt-0.5">Direct Store Line</p>
+                </div>
+              </div>
+              <div className="pt-3">
+                <a
+                  href={`tel:${SITE_CONFIG.phoneRaw}`}
+                  className="w-full inline-flex items-center justify-center gap-1.5 bg-[#1683C7] hover:bg-[#126fa9] text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-4 rounded-xl shadow-xs transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  <span>Call Now</span>
+                </a>
+              </div>
+            </div>
 
-              <a
-                href={SITE_CONFIG.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-3 px-6 rounded-xl shadow-xs transition-colors text-sm"
-              >
-                <MessageSquare className="w-4 h-4" />
-                <span>WhatsApp Message</span>
-              </a>
-
-              <a
-                href={SITE_CONFIG.googleMapUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#171A1D] hover:bg-black text-white font-bold py-3 px-6 rounded-xl shadow-xs transition-colors text-sm"
-              >
-                <Navigation className="w-4 h-4 text-[#1683C7]" />
-                <span>Get Directions</span>
-              </a>
+            {/* Card 3: Operating Hours */}
+            <div className="col-span-2 md:col-span-1 bg-white border border-[#E5E7EB] rounded-2xl p-4 sm:p-6 shadow-xs flex flex-col justify-between space-y-4 hover:border-[#1683C7]/40 hover:-translate-y-1 hover:shadow-md transition-all duration-300 group">
+              <div className="space-y-3">
+                <div className="p-3 bg-[#25D366]/10 text-[#25D366] rounded-xl w-fit group-hover:bg-[#25D366] group-hover:text-white transition-colors duration-300">
+                  <Clock className="w-5 h-5 sm:w-6 sm:h-6" />
+                </div>
+                <div>
+                  <h3 className="text-sm sm:text-base font-bold text-[#171A1D]">Operating Hours</h3>
+                  <p className="text-xs sm:text-sm text-[#6B7280] mt-1 leading-relaxed">
+                    Mon – Sat: 09:30 AM – 08:30 PM<br />
+                    Sun: On Call / Appointment
+                  </p>
+                </div>
+              </div>
+              <div className="pt-3">
+                <a
+                  href={SITE_CONFIG.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-1.5 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs sm:text-sm py-2.5 px-3 sm:px-4 rounded-xl shadow-xs transition-colors"
+                >
+                  <MessageSquare className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  <span>WhatsApp Message</span>
+                </a>
+              </div>
             </div>
           </div>
 

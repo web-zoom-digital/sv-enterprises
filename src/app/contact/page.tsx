@@ -5,7 +5,8 @@ import { MapSection } from "@/components/map/map";
 import { FAQ } from "@/components/faq/faq";
 import { CONTACT_FAQS } from "@/data/faqs";
 import { SITE_CONFIG } from "@/lib/constants";
-import { Phone, MapPin, Clock, MessageSquare, Navigation } from "lucide-react";
+import { Phone, MapPin, Clock, Navigation } from "lucide-react";
+import { FaWhatsapp, FaPhone } from "react-icons/fa6";
 
 export const metadata = constructMetadata({
   title: "Contact S V ENTERPRISES - Professional Audio Equipment Chintadripet",
@@ -74,12 +75,14 @@ export default function ContactPage() {
                 <strong className="block text-[#171A1D] font-bold text-base">Phone Hotline</strong>
                 <a
                   href={`tel:${SITE_CONFIG.phoneRaw}`}
-                  className="text-[#1683C7] font-bold text-lg hover:underline block mt-0.5"
+                  className="text-[#6B7280] hover:text-[#1683C7] transition-colors block mt-0.5"
                 >
                   {SITE_CONFIG.phone}
                 </a>
               </div>
             </div>
+
+           
 
             <div className="flex items-start gap-4">
               <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0">
@@ -101,7 +104,7 @@ export default function ContactPage() {
               href={`tel:${SITE_CONFIG.phoneRaw}`}
               className="w-full flex items-center justify-center gap-2 bg-[#1683C7] hover:bg-[#126fa9] text-white font-bold py-3 px-4 rounded-xl shadow-xs transition-colors"
             >
-              <Phone className="w-4 h-4" />
+              <FaPhone className="w-4 h-4" />
               <span>Call Now</span>
             </a>
 
@@ -111,7 +114,7 @@ export default function ContactPage() {
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-3 px-4 rounded-xl shadow-xs transition-colors"
             >
-              <MessageSquare className="w-4 h-4" />
+              <FaWhatsapp className="w-5 h-5" />
               <span>WhatsApp Message</span>
             </a>
 

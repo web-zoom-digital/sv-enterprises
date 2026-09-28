@@ -78,10 +78,10 @@ export function PageHero({
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-fit"
         />
         {/* Gradient Overlay for Crisp Text Contrast */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#171A1D]/90 via-[#171A1D]/65 to-[#171A1D]/35" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#171A1D]/40 via-[#171A1D]/65 to-[#171A1D]" />
       </motion.div>
 
       {/* Hero Content Area */}

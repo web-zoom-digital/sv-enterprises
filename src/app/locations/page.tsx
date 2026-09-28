@@ -24,7 +24,7 @@ export default function LocationsIndexPage() {
       <PageHero
         title="Professional Audio Equipment Near You"
         description="Explore the service areas covered by S V ENTERPRISES across Chennai and nearby regions. Central showroom in Chintadripet with direct dispatch across Tamil Nadu."
-        backgroundImage="/images/heroes/locations.jpg"
+        backgroundImage="/images/heroes/locations.png"
         breadcrumbItems={breadcrumbItems}
         badgeText="CHENNAI & NEIGHBORING DISTRICTS DISTRIBUTION"
         primaryCTA={{

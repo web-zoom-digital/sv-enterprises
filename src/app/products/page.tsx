@@ -24,7 +24,7 @@ export default function ProductsIndexPage() {
       <PageHero
         title="Professional Audio Equipment & Sound Solutions"
         description="S V ENTERPRISES in Chintadripet, Chennai supplies complete commercial sound systems. Explore our specialized product categories below for heavy-duty acoustic performance."
-        backgroundImage="/images/heroes/products.jpg"
+        backgroundImage="/images/heroes/products.png"
         breadcrumbItems={breadcrumbItems}
         badgeText="FULL PRODUCT CATALOG • CHINTADRIPET SHOWROOM"
         primaryCTA={{
