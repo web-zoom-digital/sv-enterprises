@@ -84,7 +84,7 @@ export default function AboutPage() {
                 We assist customers, venue operators, institutions, and audio contractors with product selection, technical guidance on component matching, 70V/100V line transformer calculations, and direct stock availability.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 sm:gap-4 pt-2">
                 <div className="p-4 bg-[#F5F6F7] border border-[#E5E7EB] rounded-xl flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-[#1683C7] shrink-0 mt-0.5" />
                   <div>
@@ -135,7 +135,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
             <div className="bg-white border border-[#E5E7EB] rounded-2xl p-6 space-y-3 shadow-xs hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
                 <Volume2 className="w-6 h-6" />
@@ -209,7 +209,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
             {featuredCategories.map((cat) => (
               <div
                 key={cat.slug}
@@ -269,7 +269,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
             <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300">
               <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
                 <Building2 className="w-6 h-6" />
@@ -343,7 +343,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             <div className="p-6 bg-[#F5F6F7] rounded-2xl border border-[#E5E7EB] space-y-3">
               <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
                 <Layers className="w-6 h-6" />

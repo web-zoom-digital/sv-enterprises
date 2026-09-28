@@ -127,7 +127,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "S V ENTERPRISES Technical Team",
     publishedAt: "2026-06-18",
     updatedAt: "2026-08-28",
-    featuredImage: "/products/speakers.jpg",
+    featuredImage: "/products/column-speakers.jpg",
     readTime: "5 min read",
     tableOfContents: [
       { id: "speaker-types", title: "1. Categorizing Speaker Architectures" },
@@ -251,7 +251,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "S V ENTERPRISES Technical Team",
     publishedAt: "2026-03-05",
     updatedAt: "2026-06-12",
-    featuredImage: "/products/pa-systems.jpg",
+    featuredImage: "/products/horn-speakers.jpg",
     readTime: "6 min read",
     tableOfContents: [
       { id: "ahuja-legacy", title: "1. The Role of Ahuja PA Equipment in India" },
@@ -281,6 +281,271 @@ export const BLOG_POSTS: BlogPost[] = [
         question: "Can S V ENTERPRISES help select Ahuja amplifier models for my setup?",
         answer:
           "Yes, our team in Chintadripet provides component guidance to match speaker power requirements with appropriate amplifier models.",
+      },
+    ],
+  },
+  {
+    slug: "pa-system-guide-businesses-events",
+    title: "How to Choose the Right PA System for Your Business or Event",
+    description:
+      "A complete step-by-step guide to calculating wattage, choosing zone coverage, selecting microphones, and setting up portable or installed PA systems for events.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-09-01",
+    updatedAt: "2026-09-28",
+    featuredImage: "/products/mixers.jpg",
+    readTime: "7 min read",
+    tableOfContents: [
+      { id: "event-size", title: "1. Sizing Your Venue and Audience Capacity" },
+      { id: "portable-vs-installed", title: "2. Portable PA Systems vs Permanent Installations" },
+      { id: "power-wattage", title: "3. Calculating Required Power Wattage" },
+      { id: "mic-selection", title: "4. Choosing Wireless vs Wired Microphones" },
+      { id: "consultation", title: "5. Expert Consultation at S V ENTERPRISES" },
+    ],
+    content: `
+      <p>Choosing a Public Address (PA) system for a commercial venue, corporate seminar, or outdoor event requires evaluating audience size, ambient noise levels, and microphone requirements. A well-planned PA setup guarantees crisp vocal projection without harsh feedback distortion.</p>
+
+      <h3 id="event-size">1. Sizing Your Venue and Audience Capacity</h3>
+      <p>Smaller indoor venues (up to 150 attendees) require compact 100W to 250W PA setups. Large outdoor grounds or industrial facilities demand multi-speaker 100V line distribution powered by 500W+ booster amplifiers.</p>
+
+      <h3 id="portable-vs-installed">2. Portable PA Systems vs Permanent Installations</h3>
+      <p>Portable trolley PA units with built-in rechargeable batteries and wireless handheld microphones are perfect for mobile announcements and outdoor pop-up events. Permanent commercial installations utilize rack-mounted power amplifiers connected to high-dispersion ceiling or column speakers.</p>
+
+      <h3 id="power-wattage">3. Calculating Required Power Wattage</h3>
+      <p>Calculate wattage based on room volume and background noise. Indoor speech paging requires approximately 1 Watt per square meter in quiet environments, whereas noisy factory floors require higher density 100V horn speaker arrays.</p>
+
+      <h3 id="mic-selection">4. Choosing Wireless vs Wired Microphones</h3>
+      <p>For podium presentations, heavy-duty gooseneck dynamic microphones provide steady acoustic pickup. For roaming hosts and stage speakers, dual-channel UHF wireless microphone systems offer seamless movement without cable tangle.</p>
+
+      <h3 id="consultation">5. Expert Consultation at S V ENTERPRISES</h3>
+      <p>Visit S V ENTERPRISES at 129/60, W Coovam Road, Chintadripet, Chennai or call 099404 51673 to test PA mixer-amplifiers, wireless mics, and high-output speaker packages.</p>
+    `,
+    relatedProductSlugs: ["pa-systems", "mixers", "microphones", "wireless-systems"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "egmore", "t-nagar"],
+    faqs: [
+      {
+        question: "How many wireless microphones can I run simultaneously on a PA system?",
+        answer:
+          "Multi-channel UHF wireless receiver systems allow multiple handheld or lapel transmitters to operate simultaneously on non-interfering frequency channels.",
+      },
+    ],
+  },
+  {
+    slug: "professional-audio-buying-guide-beginners",
+    title: "Professional Audio Equipment Buying Guide for Beginners",
+    description:
+      "New to commercial audio? Learn fundamental concepts like impedance, frequency response, line voltage vs 8-ohm setups, and audio signal chains.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-08-25",
+    updatedAt: "2026-09-20",
+    featuredImage: "/images/heroes/products.jpg",
+    readTime: "8 min read",
+    tableOfContents: [
+      { id: "signal-chain", title: "1. The Audio Signal Chain Explained" },
+      { id: "key-terminology", title: "2. Key Audio Terminology Every Buyer Should Know" },
+      { id: "line-vs-low-imp", title: "3. 100V Constant Voltage vs 8-Ohm Low Impedance" },
+      { id: "avoiding-mistakes", title: "4. Common Mistakes Beginners Make" },
+      { id: "store-guidance", title: "5. Guidance from S V ENTERPRISES Chennai" },
+    ],
+    content: `
+      <p>Navigating the professional audio landscape can be daunting for first-time commercial buyers. Understanding core audio principles helps you invest in the right equipment without overspending or risking component burnout.</p>
+
+      <h3 id="signal-chain">1. The Audio Signal Chain Explained</h3>
+      <p>Every sound reinforcement system follows a clear signal flow: Input Source (Microphone/Media Player) &rarr; Signal Processor/Mixer &rarr; Power Amplifier &rarr; Loudspeakers. Understanding this path simplifies troubleshooting and component selection.</p>
+
+      <h3 id="key-terminology">2. Key Audio Terminology Every Buyer Should Know</h3>
+      <ul>
+        <li><strong>Impedance (Ohms):</strong> Electrical resistance presented by speakers to the amplifier.</li>
+        <li><strong>RMS Power:</strong> The continuous power a speaker or amplifier can sustain safely over long operating hours.</li>
+        <li><strong>Frequency Response:</strong> The range of audible frequencies (Hz to kHz) reproduced by an audio component.</li>
+        <li><strong>SPL (Sound Pressure Level):</strong> Decibel measurement of acoustic loudness output.</li>
+      </ul>
+
+      <h3 id="line-vs-low-imp">3. 100V Constant Voltage vs 8-Ohm Low Impedance</h3>
+      <p>Home audio uses 8-ohm low-impedance connections over short speaker cables. Commercial audio installations use 70V/100V constant-voltage line transformers to run dozens of speakers over long distances on thin copper wiring.</p>
+
+      <h3 id="avoiding-mistakes">4. Common Mistakes Beginners Make</h3>
+      <p>Avoid running amplifiers at 100% volume continuously, overloading speaker line matching transformers, or pairing low-power amplifiers with high-power passive cabinet speakers.</p>
+
+      <h3 id="store-guidance">5. Guidance from S V ENTERPRISES Chennai</h3>
+      <p>Our experienced staff at Chintadripet showroom assists beginners in matching amplifiers, speakers, and PA equipment suited to their exact budget and operational needs.</p>
+    `,
+    relatedProductSlugs: ["speakers", "amplifiers", "mixers", "accessories"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "ambattur", "anna-nagar"],
+    faqs: [
+      {
+        question: "What is RMS power versus PMPO power?",
+        answer:
+          "RMS power measures true continuous electrical power, whereas PMPO is an inflated peak burst rating. Always size audio equipment using RMS ratings.",
+      },
+    ],
+  },
+  {
+    slug: "powered-vs-passive-speakers-guide",
+    title: "Powered vs Passive Speakers: Key Differences Explained",
+    description:
+      "Understand the core trade-offs between active (powered) and passive speakers for commercial installations, live speech, and distributed audio grids.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-08-18",
+    updatedAt: "2026-09-18",
+    featuredImage: "/products/ceiling-speakers.jpg",
+    readTime: "6 min read",
+    tableOfContents: [
+      { id: "definitions", title: "1. What Are Powered and Passive Speakers?" },
+      { id: "pros-cons-powered", title: "2. Pros & Cons of Active Powered Speakers" },
+      { id: "pros-cons-passive", title: "3. Pros & Cons of Passive Commercial Speakers" },
+      { id: "best-use-cases", title: "4. Which Type Fits Your Application?" },
+    ],
+    content: `
+      <p>When selecting speakers for an auditorium, commercial facility, or public address installation, deciding between powered (active) and passive speakers is one of the first critical technical choices.</p>
+
+      <h3 id="definitions">1. What Are Powered and Passive Speakers?</h3>
+      <p>Powered (active) speakers contain built-in power amplifier modules inside the speaker cabinet. Passive speakers require external power amplification connected via speaker wiring.</p>
+
+      <h3 id="pros-cons-powered">2. Pros & Cons of Active Powered Speakers</h3>
+      <p>Active speakers feature perfectly matched internal crossover amplifiers, simplifying setup for mobile DJs and portable event rigs. However, each active speaker requires both an AC power outlet and a signal cable, making large multi-speaker ceiling installations impractical.</p>
+
+      <h3 id="pros-cons-passive">3. Pros & Cons of Passive Commercial Speakers</h3>
+      <p>Passive speakers are lightweight, easy to mount on high walls or ceilings, and require only a single two-conductor speaker cable. Centralized power amplifiers in an equipment rack handle power, making passive systems the standard for commercial buildings, schools, and auditoriums.</p>
+
+      <h3 id="best-use-cases">4. Which Type Fits Your Application?</h3>
+      <p>Use active speakers for portable stage monitors and mobile speaker setups. Use passive speakers with 100V line matching transformers for distributed commercial paging, ceiling grids, and outdoor reflex horns.</p>
+    `,
+    relatedProductSlugs: ["speakers", "ceiling-speakers", "column-speakers", "amplifiers"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "triplicane", "nungambakkam"],
+    faqs: [
+      {
+        question: "Why are ceiling speakers almost always passive?",
+        answer:
+          "Passive ceiling speakers don't require electrical power outlets inside ceiling voids, making installation far safer, cleaner, and more economical across multi-room commercial buildings.",
+      },
+    ],
+  },
+  {
+    slug: "selecting-right-amplifier-for-speakers",
+    title: "How to Select the Right Amplifier for Your Speakers",
+    description:
+      "Master amplifier class ratings, channel outputs, 70V/100V transformer taps, thermal headroom, and total wattage calculations to prevent equipment burnout.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-08-02",
+    updatedAt: "2026-09-12",
+    featuredImage: "/images/heroes/amplifiers.jpg",
+    readTime: "7 min read",
+    tableOfContents: [
+      { id: "amplifier-classes", title: "1. Understanding Amplifier Classes (AB vs D)" },
+      { id: "calculating-wattage", title: "2. Calculating Total Wattage Requirements" },
+      { id: "multizone-amplifiers", title: "3. Multi-Zone vs Single-Zone Power Amplifiers" },
+      { id: "protection-features", title: "4. Essential Thermal & Short-Circuit Protections" },
+    ],
+    content: `
+      <p>The audio power amplifier is the heart of any commercial sound reinforcement system. Selecting an amplifier with the correct power output, output taps, and protection features ensures reliable performance for years to come.</p>
+
+      <h3 id="amplifier-classes">1. Understanding Amplifier Classes (AB vs D)</h3>
+      <p>Class AB amplifiers offer high linear acoustic fidelity, making them popular for high-output PA units. Modern Class D digital amplifiers deliver exceptional energy efficiency with minimal heat generation, perfect for compact rack-mount commercial installations.</p>
+
+      <h3 id="calculating-wattage">2. Calculating Total Wattage Requirements</h3>
+      <p>Sum the wattage ratings of all connected 100V speakers. For low-impedance setups, match total speaker RMS capacity with amplifier RMS output per channel at the specific load impedance (4 or 8 ohms).</p>
+
+      <h3 id="multizone-amplifiers">3. Multi-Zone vs Single-Zone Power Amplifiers</h3>
+      <p>Multi-zone commercial amplifiers feature individual volume attenuators and source selectors for different rooms, allowing independent audio control in administrative offices, dining areas, and outdoor patios.</p>
+
+      <h3 id="protection-features">4. Essential Thermal & Short-Circuit Protections</h3>
+      <p>Quality commercial amplifiers include short-circuit protection, thermal overload cut-off, and DC voltage protection to safeguard connected speakers against electrical faults.</p>
+    `,
+    relatedProductSlugs: ["amplifiers", "pa-systems", "speakers", "mixers"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "adyar", "t-nagar"],
+    faqs: [
+      {
+        question: "Can I use a 250W amplifier with 150W of connected speakers?",
+        answer:
+          "Yes! Having a 250W amplifier for 150W of total speaker tap wattage provides 40% thermal headroom, ensuring the amplifier operates coolly without distortion.",
+      },
+    ],
+  },
+  {
+    slug: "dynamic-vs-condenser-microphones-guide",
+    title: "Microphone Types Explained: Dynamic vs Condenser Microphones",
+    description:
+      "Compare dynamic speech microphones, gooseneck podium mics, boundary mics, and condenser capsules for clear announcements and vocal projection.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-07-15",
+    updatedAt: "2026-09-08",
+    featuredImage: "/products/microphones.jpg",
+    readTime: "6 min read",
+    tableOfContents: [
+      { id: "dynamic-mics", title: "1. Dynamic Microphones: Rugged & Feedback Resistant" },
+      { id: "condenser-mics", title: "2. Condenser Microphones: Sensitive & Detailed" },
+      { id: "podium-gooseneck", title: "3. Podium Gooseneck & Paging Microphones" },
+      { id: "wireless-mic-systems", title: "4. UHF Wireless Handheld & Lapel Systems" },
+    ],
+    content: `
+      <p>Microphones convert acoustic voice energy into electrical audio signals. Choosing the right microphone transducer type determines vocal clarity, ambient noise rejection, and resistance to acoustic feedback.</p>
+
+      <h3 id="dynamic-mics">1. Dynamic Microphones: Rugged & Feedback Resistant</h3>
+      <p>Dynamic microphones use a durable moving coil diaphragm. They require no external phantom power, withstand high sound pressure levels, and reject background ambient noise, making them ideal for stage speech, outdoor announcements, and handheld PA use.</p>
+
+      <h3 id="condenser-mics">2. Condenser Microphones: Sensitive & Detailed</h3>
+      <p>Condenser microphones utilize an ultra-thin charged diaphragm requiring 48V phantom power. They offer wide frequency response and high sensitivity, capturing nuanced acoustic detail in controlled studio or conference room environments.</p>
+
+      <h3 id="podium-gooseneck">3. Podium Gooseneck & Paging Microphones</h3>
+      <p>Gooseneck condenser microphones mounted on weighted desktop bases are standard for auditorium podiums, conference tables, and reception desks. Their flexible shafts allow speakers to adjust mic height easily.</p>
+
+      <h3 id="wireless-mic-systems">4. UHF Wireless Handheld & Lapel Systems</h3>
+      <p>Wireless microphone systems transmit audio signals over radio frequencies (VHF or UHF). UHF multi-channel systems provide stable signal transmission without dropouts, perfect for mobile presenters and event hosts.</p>
+    `,
+    relatedProductSlugs: ["microphones", "wireless-systems", "mixers", "pa-systems"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "egmore", "periamet"],
+    faqs: [
+      {
+        question: "Do dynamic microphones require batteries or phantom power?",
+        answer:
+          "No, standard wired dynamic microphones generate their own electrical signal electromagnetically and do not require batteries or 48V phantom power.",
+      },
+    ],
+  },
+  {
+    slug: "essential-sound-equipment-schools-auditoriums",
+    title: "Essential Sound Equipment for Schools, Auditoriums, and Commercial Spaces",
+    description:
+      "A comprehensive checklist of public address chime units, column arrays, zone selectors, and priority paging desks needed for educational and corporate halls.",
+    author: "S V ENTERPRISES Technical Team",
+    publishedAt: "2026-07-02",
+    updatedAt: "2026-09-05",
+    featuredImage: "/products/wireless-systems.jpg",
+    readTime: "7 min read",
+    tableOfContents: [
+      { id: "school-pa-needs", title: "1. Public Address Systems for Educational Campuses" },
+      { id: "auditorium-sound", title: "2. Sound Reinforcement for Auditoriums & Event Halls" },
+      { id: "zone-routing", title: "3. Zone Routing and Automated Bell Chimers" },
+      { id: "commercial-checklist", title: "4. Essential Equipment Checklist" },
+    ],
+    content: `
+      <p>Equipping an educational campus, corporate hall, or multi-purpose auditorium requires a robust audio architecture capable of delivering clear daily announcements, bell signals, and high-fidelity stage sound.</p>
+
+      <h3 id="school-pa-needs">1. Public Address Systems for Educational Campuses</h3>
+      <p>School PA systems require reliable coverage across classrooms, corridors, sports fields, and administrative blocks. 100V line systems with weather-resistant reflex horns for playgrounds and flush ceiling speakers for classrooms are standard.</p>
+
+      <h3 id="auditorium-sound">2. Sound Reinforcement for Auditoriums & Event Halls</h3>
+      <p>Auditorium audio demands multi-channel mixing consoles, high-output cabinet speakers, stage monitors, gooseneck podium mics, and dual-channel wireless microphone receivers to handle cultural programs and guest lectures.</p>
+
+      <h3 id="zone-routing">3. Zone Routing and Automated Bell Chimers</h3>
+      <p>Automated periodic bell chimers integrated into PA amplifiers send automated period change signals across classroom zones without requiring manual switch operations.</p>
+
+      <h3 id="commercial-checklist">4. Essential Equipment Checklist</h3>
+      <ul>
+        <li>Multi-Zone PA Amplifier (250W - 500W RMS)</li>
+        <li>Sound Column Speakers & Flush Ceiling Speakers</li>
+        <li>Reflex Horn Speakers for Outdoor Grounds</li>
+        <li>Desktop Paging Microphones & UHF Wireless Mics</li>
+        <li>Multi-Channel Mixing Console</li>
+      </ul>
+    `,
+    relatedProductSlugs: ["pa-systems", "speakers", "column-speakers", "microphones", "mixers"],
+    relatedLocationSlugs: ["chintadripet", "chennai", "ambattur", "tiruvallur"],
+    faqs: [
+      {
+        question: "Can S V ENTERPRISES supply complete audio packages for school auditoriums?",
+        answer:
+          "Yes, S V ENTERPRISES in Chintadripet supplies complete commercial audio equipment packages tailored for schools, colleges, auditoriums, and commercial complexes.",
       },
     ],
   },

@@ -275,28 +275,28 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
             </h2>
           </div>
 
-          <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 md:grid md:grid-cols-3 gap-6">
-            <div className="min-w-[80%] md:min-w-0 snap-start shrink-0 md:shrink p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-2 hover:border-[#1683C7]/40 transition-colors">
-              <ShieldCheck className="w-6 h-6 text-[#1683C7]" />
-              <h3 className="text-base font-bold text-[#171A1D]">Truthful Sizing</h3>
-              <p className="text-xs text-[#6B7280] leading-relaxed">
-                Accurate wattage & impedance matching without making unverified claims or overestimating specs.
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
+            <div className="p-3.5 sm:p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-1.5 sm:space-y-2 hover:border-[#1683C7]/40 transition-colors">
+              <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6 text-[#1683C7]" />
+              <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Truthful Sizing</h3>
+              <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+                Accurate wattage & impedance matching without unverified claims.
               </p>
             </div>
 
-            <div className="min-w-[80%] md:min-w-0 snap-start shrink-0 md:shrink p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-2 hover:border-[#1683C7]/40 transition-colors">
-              <Building className="w-6 h-6 text-[#1683C7]" />
-              <h3 className="text-base font-bold text-[#171A1D]">Central Hub Base</h3>
-              <p className="text-xs text-[#6B7280] leading-relaxed">
-                Base store at 129/60, W Coovam Road, Chintadripet provides ready stock for fast local dispatch.
+            <div className="p-3.5 sm:p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-1.5 sm:space-y-2 hover:border-[#1683C7]/40 transition-colors">
+              <Building className="w-5 h-5 sm:w-6 sm:h-6 text-[#1683C7]" />
+              <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Central Base</h3>
+              <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+                Base store at 129/60, W Coovam Road, Chintadripet.
               </p>
             </div>
 
-            <div className="min-w-[80%] md:min-w-0 snap-start shrink-0 md:shrink p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-2 hover:border-[#1683C7]/40 transition-colors">
-              <Volume2 className="w-6 h-6 text-[#1683C7]" />
-              <h3 className="text-base font-bold text-[#171A1D]">Direct Phone Advice</h3>
-              <p className="text-xs text-[#6B7280] leading-relaxed">
-                Direct hotline support at 099404 51673 for instant stock verification and model availability.
+            <div className="p-3.5 sm:p-5 bg-[#F5F6F7] rounded-xl border border-[#E5E7EB] space-y-1.5 sm:space-y-2 hover:border-[#1683C7]/40 transition-colors">
+              <Volume2 className="w-5 h-5 sm:w-6 sm:h-6 text-[#1683C7]" />
+              <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Direct Phone Advice</h3>
+              <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+                Direct hotline support at 099404 51673.
               </p>
             </div>
           </div>
@@ -329,9 +329,9 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
               </h2>
             </div>
 
-            <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
               {PRODUCT_CATEGORIES.slice(0, 6).map((cat) => (
-                <div key={cat.slug} className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-2xl p-6 shadow-xs flex flex-col justify-between group hover:border-[#1683C7]/40 transition-all">
+                <div key={cat.slug} className="bg-white border border-[#E5E7EB] rounded-2xl p-3.5 sm:p-6 shadow-xs flex flex-col justify-between group hover:border-[#1683C7]/40 transition-all">
                   <div>
                     <h3 className="text-lg font-bold text-[#171A1D] group-hover:text-[#1683C7] transition-colors">
                       {cat.name}

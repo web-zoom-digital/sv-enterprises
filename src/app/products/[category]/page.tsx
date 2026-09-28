@@ -190,7 +190,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 <h3 className="text-xs sm:text-sm font-bold text-[#1683C7] uppercase tracking-wider">
                   Key Features & Capabilities:
                 </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-2 gap-2.5 sm:gap-3">
                   {category.features.map((feat, i) => (
                     <div
                       key={i}
@@ -255,7 +255,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
             {category.applications.map((app, i) => {
               // Dedicated unique commercial photography asset & descriptive alt text for every application
               const appImageData = getApplicationImage(category.slug, app);
@@ -330,7 +330,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </div>
 
           {/* 3 Key Trust Pillars / Guidance Cards */}
-          <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+          <div className="relative z-10 grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6 pt-2">
             <div className="p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm space-y-2 hover:border-sky-400/40 transition-colors">
               <div className="w-10 h-10 rounded-xl bg-[#1683C7]/20 text-sky-400 flex items-center justify-center">
                 <Sliders className="w-5 h-5" />
@@ -405,12 +405,12 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               </h2>
             </div>
 
-            <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
               {relatedCategories.map((rel) => (
                 <Link
                   key={rel.slug}
                   href={`/products/${rel.slug}`}
-                  className="min-w-[75%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-xl p-5 hover:border-[#1683C7] transition-all shadow-xs group flex items-center justify-between"
+                  className="bg-white border border-[#E5E7EB] rounded-xl p-5 hover:border-[#1683C7] transition-all shadow-xs group flex items-center justify-between"
                 >
                   <span className="font-bold text-sm text-[#171A1D] group-hover:text-[#1683C7]">
                     {rel.name}

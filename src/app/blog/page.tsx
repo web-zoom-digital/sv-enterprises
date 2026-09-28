@@ -42,9 +42,9 @@ export default function BlogIndexPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         {/* Blog Cards Grid */}
-        <section className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 md:pb-0 md:mx-0 md:px-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <section className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 md:gap-8">
           {BLOG_POSTS.map((post) => (
-            <div key={post.slug} className="min-w-[84%] md:min-w-0 snap-start shrink-0 md:shrink flex flex-col">
+            <div key={post.slug} className="flex flex-col">
               <BlogCard post={post} />
             </div>
           ))}

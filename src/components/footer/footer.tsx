@@ -88,89 +88,92 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Column 2: Useful Links (with Chevron ChevronRight) */}
-          <div>
-            <h3 className="text-base font-bold text-white mb-5 tracking-wide">
-              Useful Links
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-300">
-              <li>
-                <Link
-                  href="/"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>Home</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>About Us</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/products"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>Product Categories</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/locations"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>Service Areas</span>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>Contact Us</span>
-                </Link>
-              </li>
-              <li>
-                <a
-                  href={SITE_CONFIG.googleMapUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
-                >
-                  <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                  <span>Showroom Map</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 3: Our Products */}
-          <div>
-            <h3 className="text-base font-bold text-white mb-5 tracking-wide">
-              Our Products
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-300">
-              {topCategories.map((cat) => (
-                <li key={cat.slug}>
+          {/* Mobile 2-Column Grid Wrapper for Useful Links and Our Products */}
+          <div className="grid grid-cols-2 gap-4 sm:gap-6 md:contents">
+            {/* Column 2: Useful Links (with Chevron ChevronRight) */}
+            <div>
+              <h3 className="text-base font-bold text-white mb-4 sm:mb-5 tracking-wide">
+                Useful Links
+              </h3>
+              <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-gray-300">
+                <li>
                   <Link
-                    href={`/products/${cat.slug}`}
-                    className="hover:text-[#1683C7] transition-colors flex items-center gap-2 group cursor-pointer"
+                    href="/"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
                   >
-                    <ChevronRight className="w-4 h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                    <span>{cat.name}</span>
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>Home</span>
                   </Link>
                 </li>
-              ))}
-            </ul>
+                <li>
+                  <Link
+                    href="/about"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>About Us</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>Product Categories</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/locations"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>Service Areas</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>Contact Us</span>
+                  </Link>
+                </li>
+                <li>
+                  <a
+                    href={SITE_CONFIG.googleMapUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                  >
+                    <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                    <span>Showroom Map</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 3: Our Products */}
+            <div>
+              <h3 className="text-base font-bold text-white mb-4 sm:mb-5 tracking-wide">
+                Our Products
+              </h3>
+              <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-gray-300">
+                {topCategories.map((cat) => (
+                  <li key={cat.slug}>
+                    <Link
+                      href={`/products/${cat.slug}`}
+                      className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
+                    >
+                      <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
+                      <span>{cat.name}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {/* Column 4: Contact Us & Branch Address */}

@@ -165,7 +165,7 @@ export default async function BlogDetailPage({ params }: BlogPageProps) {
           <h2 className="text-xl font-bold text-[#171A1D] text-center">
             Related Audio Categories
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 sm:gap-4">
             {relatedProducts.map((cat) => (
               <Link
                 key={cat.slug}

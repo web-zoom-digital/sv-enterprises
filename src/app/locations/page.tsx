@@ -44,9 +44,9 @@ export default function LocationsIndexPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         {/* Locations Grid */}
-        <section className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <section className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {LOCATIONS.map((location) => (
-            <div key={location.slug} className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink flex flex-col">
+            <div key={location.slug} className="flex flex-col">
               <LocationCard location={location} />
             </div>
           ))}

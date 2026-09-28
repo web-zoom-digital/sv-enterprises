@@ -24,20 +24,20 @@ export function FloatingWidgets() {
   return (
     <div className="hidden md:flex fixed bottom-6 right-6 z-50 flex-col items-end gap-3 select-none">
       {/* Tooltip hint on hover */}
-      <AnimatePresence>
-        {hoveredWidget && (
+      {/* <AnimatePresence> */}
+        {/* {hoveredWidget && (
           <motion.div
             initial={{ opacity: 0, x: 10, scale: 0.95 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
             exit={{ opacity: 0, x: 10, scale: 0.95 }}
             transition={{ duration: 0.15 }}
             className="hidden md:block bg-gray-900/90 backdrop-blur-md text-white text-xs font-medium px-3 py-1.5 rounded-lg shadow-xl border border-gray-700/50 pointer-events-none"
-          >
-            {hoveredWidget === "whatsapp" && "Chat on WhatsApp"}
-            {hoveredWidget === "call" && `Call Us: ${SITE_CONFIG.phone}`}
-          </motion.div>
-        )}
-      </AnimatePresence>
+          > */}
+          {/* {hoveredWidget === "whatsapp" && "Chat on WhatsApp"} */}
+          {/* {hoveredWidget === "call" && `Call Us: ${SITE_CONFIG.phone}`} */}
+          {/* </motion.div> */}
+        {/* )} */}
+      {/* </AnimatePresence> */}
 
       {/* Main Floating Buttons Group */}
       <div className="flex flex-col gap-3 items-end">
@@ -65,9 +65,9 @@ export function FloatingWidgets() {
           <FaWhatsapp className="w-8 h-8 text-white" />
 
           {/* Desktop Hover Label */}
-          <span className="absolute right-16 bg-[#171A1D] text-white text-xs font-semibold px-3 py-1.5 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden md:inline-block pointer-events-none">
+          {/* <span className="absolute right-16 bg-[#171A1D] text-white text-xs font-semibold px-3 py-1.5 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden md:inline-block pointer-events-none">
             Chat on WhatsApp
-          </span>
+          </span> */}
         </motion.a>
 
         {/* Call Button */}
@@ -86,9 +86,9 @@ export function FloatingWidgets() {
           <FaPhone className="w-6 h-6 text-white" />
 
           {/* Desktop Hover Label */}
-          <span className="absolute right-16 bg-[#171A1D] text-white text-xs font-semibold px-3 py-1.5 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden md:inline-block pointer-events-none">
+          {/* <span className="absolute right-16 bg-[#171A1D] text-white text-xs font-semibold px-3 py-1.5 rounded-md shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap hidden md:inline-block pointer-events-none">
             Call {SITE_CONFIG.phone}
-          </span>
+          </span> */}
         </motion.a>
       </div>
     </div>

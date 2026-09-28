@@ -33,13 +33,13 @@ export function ProductGrid({ categories, limit }: ProductGridProps) {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.15 }}
-      className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+      className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6 lg:gap-8"
     >
       {displayCategories.map((category) => (
         <motion.div
           key={category.id}
           variants={itemVariants}
-          className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink flex flex-col"
+          className="flex flex-col"
         >
           <ProductCard category={category} />
         </motion.div>

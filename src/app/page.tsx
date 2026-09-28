@@ -57,9 +57,9 @@ export default function HomePage() {
 
       {/* 2. TRUST / BUSINESS HIGHLIGHTS */}
       <MotionSection className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
           {/* Card 1 */}
-          <div className="min-w-[78%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
+          <div className="bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
             <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0 group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
               <Award className="w-6 h-6" />
             </div>
@@ -70,7 +70,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 2 */}
-          <div className="min-w-[78%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
+          <div className="bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
             <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0 group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
               <ShieldCheck className="w-6 h-6" />
             </div>
@@ -81,7 +81,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 3 */}
-          <div className="min-w-[78%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
+          <div className="bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
             <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0 group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
               <Truck className="w-6 h-6" />
             </div>
@@ -92,7 +92,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 4 */}
-          <div className="min-w-[78%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
+          <div className="bg-white border border-[#E5E7EB] rounded-2xl p-5 sm:p-6 shadow-xs hover:shadow-md hover:-translate-y-1.5 hover:scale-[1.01] hover:border-[#1683C7]/40 transition-all duration-300 flex items-start gap-4 group">
             <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl shrink-0 group-hover:bg-[#1683C7] group-hover:text-white transition-colors duration-300">
               <Headphones className="w-6 h-6" />
             </div>
@@ -203,44 +203,44 @@ export default function HomePage() {
           </h2>
         </div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="min-w-[80%] sm:min-w-0 snap-start shrink-0 sm:shrink p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-3">
-            <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
-              <Layers className="w-6 h-6" />
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+          <div className="p-3.5 sm:p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-2 sm:space-y-3">
+            <div className="p-2.5 sm:p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
+              <Layers className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h3 className="text-base font-bold text-[#171A1D]">Professional Audio Range</h3>
-            <p className="text-xs text-[#6B7280] leading-relaxed">
-              High-output speakers, multi-zone power amplifiers, mixers, and commercial PA hardware.
+            <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Professional Range</h3>
+            <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+              High-output speakers, multi-zone amplifiers, mixers, and commercial PA hardware.
             </p>
           </div>
 
-          <div className="min-w-[80%] sm:min-w-0 snap-start shrink-0 sm:shrink p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-3">
-            <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
-              <CheckCircle2 className="w-6 h-6" />
+          <div className="p-3.5 sm:p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-2 sm:space-y-3">
+            <div className="p-2.5 sm:p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
+              <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h3 className="text-base font-bold text-[#171A1D]">Product Guidance</h3>
-            <p className="text-xs text-[#6B7280] leading-relaxed">
-              Accurate component sizing and line transformer (70V/100V) tap matching for voice clarity.
+            <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Product Guidance</h3>
+            <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+              Accurate component sizing and line transformer (70V/100V) tap matching.
             </p>
           </div>
 
-          <div className="min-w-[80%] sm:min-w-0 snap-start shrink-0 sm:shrink p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-3">
-            <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
-              <Headphones className="w-6 h-6" />
+          <div className="p-3.5 sm:p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-2 sm:space-y-3">
+            <div className="p-2.5 sm:p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
+              <Headphones className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h3 className="text-base font-bold text-[#171A1D]">Customer-Focused Support</h3>
-            <p className="text-xs text-[#6B7280] leading-relaxed">
-              Direct phone consultations and stock verification assistance at 099404 51673.
+            <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Customer Support</h3>
+            <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+              Direct phone consultations and stock verification assistance.
             </p>
           </div>
 
-          <div className="min-w-[80%] sm:min-w-0 snap-start shrink-0 sm:shrink p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-3">
-            <div className="p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
-              <MapPin className="w-6 h-6" />
+          <div className="p-3.5 sm:p-6 bg-white rounded-2xl border border-[#E5E7EB] shadow-xs hover:shadow-md hover:border-[#1683C7]/40 hover:-translate-y-1 transition-all duration-300 space-y-2 sm:space-y-3">
+            <div className="p-2.5 sm:p-3 bg-[#1683C7]/10 text-[#1683C7] rounded-xl w-fit">
+              <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
             </div>
-            <h3 className="text-base font-bold text-[#171A1D]">Convenient Chennai Location</h3>
-            <p className="text-xs text-[#6B7280] leading-relaxed">
-              Physical showroom access at 129/60, W Coovam Road, Chintadripet for hands-on inspection.
+            <h3 className="text-xs sm:text-base font-bold text-[#171A1D]">Chennai Location</h3>
+            <p className="text-[11px] sm:text-xs text-[#6B7280] leading-snug">
+              Physical showroom access at 129/60, W Coovam Road, Chintadripet.
             </p>
           </div>
         </div>
@@ -260,8 +260,8 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <Building2 className="w-6 h-6" />
             </div>
@@ -271,7 +271,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <Church className="w-6 h-6" />
             </div>
@@ -281,7 +281,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <GraduationCap className="w-6 h-6" />
             </div>
@@ -291,7 +291,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <Factory className="w-6 h-6" />
             </div>
@@ -301,7 +301,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <Hotel className="w-6 h-6" />
             </div>
@@ -311,7 +311,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
+          <div className="bg-white border border-[#E5E7EB] p-6 rounded-2xl space-y-3 hover:border-[#1683C7] hover:-translate-y-1.5 hover:scale-[1.01] hover:shadow-md transition-all duration-300">
             <div className="w-12 h-12 rounded-xl bg-[#1683C7]/10 text-[#1683C7] flex items-center justify-center">
               <Volume2 className="w-6 h-6" />
             </div>
@@ -358,9 +358,9 @@ export default function HomePage() {
           </h2>
         </div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {featuredLocations.map((loc) => (
-            <div key={loc.slug} className="min-w-[84%] sm:min-w-0 snap-start shrink-0 sm:shrink flex flex-col">
+            <div key={loc.slug} className="flex flex-col">
               <LocationCard location={loc} />
             </div>
           ))}
@@ -402,9 +402,9 @@ export default function HomePage() {
           </h2>
         </div>
 
-        <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide -mx-4 px-4 pb-4 sm:pb-0 sm:mx-0 sm:px-0 md:grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
           {latestBlogs.map((post) => (
-            <div key={post.slug} className="min-w-[84%] md:min-w-0 snap-start shrink-0 md:shrink flex flex-col">
+            <div key={post.slug} className="flex flex-col">
               <BlogCard post={post} />
             </div>
           ))}

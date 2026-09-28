@@ -78,7 +78,7 @@ export function PageHero({
           fill
           priority
           sizes="100vw"
-          className="object-fit"
+          className="object-cover"
         />
         {/* Gradient Overlay for Crisp Text Contrast */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#171A1D]/90 via-[#171A1D]/65 to-[#171A1D]/35" />

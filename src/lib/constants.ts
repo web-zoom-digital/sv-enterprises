@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   whatsapp:
     "https://wa.me/919940451673?text=" +
     encodeURIComponent(
-      "Hello! Welcome to S V Enterprises 👋\n\nThank you for your interest in our professional audio equipment.\n\nHow can we help you today? Please let us know your product requirements or enquiry, and our team will assist you."
+      "Hello! Welcome to S V Enterprises\n\nThank you for your interest in our professional audio equipment.\n\nHow can we help you today? Please let us know your product requirements or enquiry, and our team will assist you."
     ),
   googleMapUrl: "https://maps.app.goo.gl/HpxgnWdqzGuHjZfv8",
   googleEmbedMapUrl:
