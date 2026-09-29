@@ -262,7 +262,32 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
       "Durable XLR, Speakon, and 6.35mm jack connectors",
       "Robust wall mounting brackets with tilt options",
     ],
-    relatedCategories: ["microphones", "speakers", "amplifiers"],
+    relatedCategories: ["microphones", "speakers", "amplifiers", "road-cases"],
+  },
+  {
+    id: "road-cases",
+    slug: "road-cases",
+    name: "ROAD CASES / ALL TYPES OF CUSTOMIZED FLIGHT CASES",
+    shortDescription:
+      "Explore road cases and customized flight cases designed for transporting, organizing, and protecting professional audio equipment. Contact S V ENTERPRISES for product availability and customization enquiries.",
+    fullDescription:
+      "S V Enterprises supplies durable road cases and customized flight cases designed for transporting, organizing, and protecting professional audio equipment, power amplifiers, mixing consoles, speakers, and delicate audio accessories across Chennai.",
+    seoHeading: "Professional Road Cases & Customized Flight Cases Dealer in Chennai",
+    image: "/products/road-cases.jpg",
+    featuredInHome: false,
+    applications: [
+      "Touring & Live Event Equipment Transport",
+      "Audio Rack & Power Amplifier Protection",
+      "Mixing Console & DJ Gear Transit",
+      "Microphone & Cable Storage Racks",
+    ],
+    features: [
+      "Heavy-duty aluminum extrusions & reinforced chrome ball corners",
+      "High-density impact shock-absorbing interior EVA foam lining",
+      "Industrial recessed butterfly latches & spring-loaded handles",
+      "Heavy-duty caster wheels with foot brakes for mobile transport",
+    ],
+    relatedCategories: ["amplifiers", "mixers", "speakers", "accessories"],
   },
 ];
 

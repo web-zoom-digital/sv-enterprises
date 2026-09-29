@@ -161,14 +161,14 @@ export function Footer() {
                 Our Products
               </h3>
               <ul className="space-y-2.5 sm:space-y-3 text-xs sm:text-sm text-gray-300">
-                {topCategories.map((cat) => (
+                {PRODUCT_CATEGORIES.map((cat) => (
                   <li key={cat.slug}>
                     <Link
                       href={`/products/${cat.slug}`}
                       className="hover:text-[#1683C7] transition-colors flex items-center gap-1.5 sm:gap-2 group cursor-pointer"
                     >
                       <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#1683C7] shrink-0 group-hover:translate-x-1 transition-transform" />
-                      <span>{cat.name}</span>
+                      <span className="">{cat.name}</span>
                     </Link>
                   </li>
                 ))}

@@ -46,7 +46,7 @@ export function LocationCard({ location }: LocationCardProps) {
           </p>
         </div>
 
-        <div className="mt-3 sm:mt-6 pt-2 sm:pt-4 border-t border-[#E5E7EB]">
+        <div className="mt-3 sm:mt-6 pt-2 sm:pt-4 ">
           <div className="inline-flex items-center gap-1 sm:gap-2 text-xs sm:text-sm font-bold text-[#1683C7] group-hover:text-[#126fa9] transition-colors">
             <span className="truncate">Explore {location.name}</span>
             <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0 transition-transform group-hover:translate-x-1" />

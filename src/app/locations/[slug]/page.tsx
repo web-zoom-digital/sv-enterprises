@@ -111,10 +111,8 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        {/* Section 1: Location Overview (Left Content & Bullet Points, Right Image) */}
         <section className="bg-white border border-[#E5E7EB] rounded-3xl p-6 sm:p-10 shadow-xs">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Left Side: Context & Bullet Points */}
             <div className="lg:col-span-7 space-y-5">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#1683C7]/10 text-[#1683C7] text-xs font-bold uppercase tracking-wider border border-[#1683C7]/30">
@@ -243,7 +241,7 @@ export default async function LocationDetailPage({ params }: LocationPageProps) 
           </div>
 
           {/* Action Bar */}
-          <div className="relative z-10 pt-4 border-t border-white/10 flex flex-wrap items-center gap-4">
+          <div className="relative z-10 pt-4  flex flex-wrap items-center gap-4">
             <a
               href={`tel:${SITE_CONFIG.phoneRaw}`}
               className="inline-flex items-center gap-2 bg-[#1683C7] hover:bg-[#126fa9] text-white font-bold text-sm sm:text-base px-6 py-3.5 rounded-xl shadow-lg shadow-sky-500/20 transition-all duration-200 transform hover:-translate-y-0.5"

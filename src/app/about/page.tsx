@@ -199,7 +199,7 @@ export default function AboutPage() {
         </MotionSection>
 
         {/* 4. PRODUCT CATEGORIES */}
-        <MotionSection className="space-y-8">
+        <MotionSection className="space-y-8 cursor-pointer">
           <div className="text-center max-w-2xl mx-auto space-y-2">
             <span className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-[#1683C7]/10 border border-[#1683C7]/30 text-xs font-bold text-[#1683C7] uppercase tracking-wider">
               Explore Categories
@@ -233,7 +233,7 @@ export default function AboutPage() {
                   </p>
                 </div>
 
-                <div className="mt-5 pt-3 border-t border-[#E5E7EB]">
+                <div className="mt-5 pt-3 ">
                   <Link
                     href={`/products/${cat.slug}`}
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1683C7] group-hover:text-[#126fa9] transition-colors"

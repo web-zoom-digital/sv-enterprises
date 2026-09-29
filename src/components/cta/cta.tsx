@@ -35,7 +35,7 @@ export function CTA({
           priority={false}
         />
         {/* High Contrast Dark Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/90 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/55 to-black/55 " />
       </motion.div>
 
       {/* Centered Content Container */}
@@ -46,7 +46,7 @@ export function CTA({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs sm:text-sm font-semibold text-sky-400 uppercase tracking-wider"
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10  border border-white/20 text-xs sm:text-sm font-semibold text-sky-400 uppercase tracking-wider"
         >
           <span>Professional Audio Consultation</span>
         </motion.div>

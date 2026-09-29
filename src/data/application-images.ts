@@ -197,6 +197,25 @@ export const APPLICATION_IMAGES: Record<string, Record<string, ApplicationImageD
       alt: "Heavy duty adjustable steel speaker wall mount brackets - S V ENTERPRISES",
     },
   },
+
+  "road-cases": {
+    "Touring & Live Event Equipment Transport": {
+      image: "/images/applications/road-cases/touring-and-live-event-equipment-transport.jpg",
+      alt: "Heavy duty customized road cases and flight cases loaded for touring & live event equipment transport - S V ENTERPRISES",
+    },
+    "Audio Rack & Power Amplifier Protection": {
+      image: "/images/applications/road-cases/audio-rack-and-power-amplifier-protection.jpg",
+      alt: "Customized rackmount flight cases for audio power amplifier and processor protection - S V ENTERPRISES",
+    },
+    "Mixing Console & DJ Gear Transit": {
+      image: "/images/applications/road-cases/mixing-console-and-dj-gear-transit.jpg",
+      alt: "Custom foam padded flight cases for mixing console and DJ gear safe transit - S V ENTERPRISES",
+    },
+    "Microphone & Cable Storage Racks": {
+      image: "/images/applications/road-cases/microphone-and-cable-storage-racks.jpg",
+      alt: "Professional road case drawers and storage racks for microphones and audio cables - S V ENTERPRISES",
+    },
+  },
 };
 
 export function getApplicationImage(categorySlug: string, applicationTitle: string): ApplicationImageData {
