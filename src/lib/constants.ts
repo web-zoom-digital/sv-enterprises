@@ -16,7 +16,7 @@ export const SITE_CONFIG = {
   googleMapUrl:
     "https://www.google.com/maps/place/S+V+ENTERPRISES+%2F+AHUJA+DEALERS+%2F+Professional+Audio+Equipment/@13.0723761,80.2681146,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5267524f6b7c8b:0x37730bb4b0e5acd6!8m2!3d13.0723761!4d80.2681146!16s%2Fg%2F11nx1fxv9h!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D",
   googleEmbedMapUrl:
-    "https://maps.google.com/maps?q=13.0723761,80.2681146+(S+V+ENTERPRISES+-+AHUJA+DEALERS+Chintadripet)&t=&z=17&ie=UTF8&iwloc=B&output=embed",
+    "https://maps.google.com/maps?q=13.0723761,80.2681146+(S+V+ENTERPRISES+%2F+AHUJA+DEALERS+%2F+Professional+Audio+Equipment)&t=&z=17&ie=UTF8&iwloc=B&output=embed",
   address: {
     street: "129/60, W Coovam Road",
     area: "Chintadripet",

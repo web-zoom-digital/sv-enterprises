@@ -26,16 +26,18 @@ export function MapSection({
         {/* Embedded Pinned Map Container */}
         <div className="lg:col-span-12 w-full h-[360px] sm:h-[420px] rounded-2xl  border border-[#E5E7EB] relative bg-gray-100 shadow-inner">
           {/* Floating Pinned Location Badge */}
-          <div className="absolute top-3 right-3 z-10 flex items-center gap-2 bg-[#171A1D]/90 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 rounded-full border border-white/20 shadow-md">
-            <span className="relative flex h-2 w-2">
+          <div className="absolute top-3 left-3 sm:top-4 sm:left-4 z-10 flex items-center gap-2 bg-[#171A1D]/90 backdrop-blur-md text-white text-xs font-semibold px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl border border-white/20 shadow-md max-w-[92%] sm:max-w-none">
+            <span className="relative flex h-2 w-2 shrink-0">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
             </span>
-            <span>Pinned Location</span>
+            <span className="truncate">
+              {locationName || "S V ENTERPRISES / AHUJA DEALERS / Professional Audio Equipment"}
+            </span>
           </div>
 
           <iframe
-            title="S V ENTERPRISES Chintadripet Map Location"
+            title="S V ENTERPRISES / AHUJA DEALERS / Professional Audio Equipment - Map Location"
             src={SITE_CONFIG.googleEmbedMapUrl}
             width="100%"
             height="100%"
